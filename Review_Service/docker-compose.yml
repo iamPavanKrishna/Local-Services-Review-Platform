@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  review_service_api:
+    build: .
+    restart: on-failure
+    ports:
+      - 8080:8080
